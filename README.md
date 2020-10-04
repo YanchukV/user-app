@@ -2,7 +2,9 @@
 
 ## User App
 
-In the project directory, you can run:
+### `yarn install`
+
+Install all the dependencies listed within package.json in the local node_modules folder.
 
 ### `yarn start`
 
