@@ -1,0 +1,77 @@
+.root {
+  width: 100%;
+  height: auto;
+  padding: 15px 0 40px 0;
+  background: #fff;
+  display: flex;
+
+  form {
+    width: 100%;
+  }
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.formGroup {
+  width: 100%;
+  margin: 0 5px;
+  position: relative;
+}
+
+.formFeedback {
+  display: block;
+  position: absolute;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  input {
+    border: 1px solid #000;
+    width: 100%;
+  }
+}
+
+.surname {
+  width: 100%;
+  display: flex;
+
+  input {
+    border: 1px solid #000;
+    width: 100%;
+  }
+}
+
+.desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    border: 1px solid #000;
+    width: 100%;
+  }
+}
+
+.buttons {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+.btnSubmit {
+  outline: 0;
+  padding: 5px 10px;
+  margin: 0 11px;
+}
+
+.preview {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
